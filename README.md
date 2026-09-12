@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <svg xmlns="http://www.w3.org/2000/svg" width="1139" height="536" viewBox="0 0 1139 536" role="img" aria-label="ASCII GitHub profile card for kirtan1911">
   <rect x="0.5" y="0.5" width="1138" height="535" rx="8" fill="#0d1117" stroke="#30363d"/>
   <text x="28" y="34.6" fill="#c9d1d9" font-family="'Consolas', 'Menlo', 'DejaVu Sans Mono', monospace" xml:space="preserve" font-size="8">                                              ||xjj:j:|\Y-/pujj:::::</text>
