@@ -225,6 +225,254 @@ Python workflows with PyTorch, TensorFlow, Pandas and NumPy.
 
 ---
 
+<!-- ============ THE ARCADE (INTERACTIVE) ============ -->
+<!-- Fully clickable. Built entirely from nested <details> elements,
+     which GitHub renders and allows users to expand. No JS required. -->
+
+<div align="center">
+
+### The Arcade
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=900&color=7C6CF6&center=true&vCenter=true&width=560&height=30&lines=%3E+booting+arcade...;%3E+session+ready.+pick+a+cabinet+below." alt="Arcade terminal booting" />
+
+<sub>Two playable things. Click a cabinet to open it.</sub>
+
+</div>
+
+<br/>
+
+<!-- ---------- CABINET 01 : DEPLOY NIGHT ---------- -->
+
+<details>
+<summary><b>&nbsp;🕹️&nbsp; CABINET 01 &nbsp;·&nbsp; DEPLOY NIGHT &nbsp;·&nbsp; <i>a branching survival sim</i></b></summary>
+
+<br/>
+
+```txt
+┌─ DEPLOY NIGHT ───────────────────────────── 02:14 AM ─┐
+│                                                        │
+│   Production is returning 500s.                        │
+│   Your coffee is cold. Your manager is awake.          │
+│                                                        │
+│   THREE MOVES. ONE SURVIVES.                           │
+│                                                        │
+└────────────────────────────────────────────────────────┘
+```
+
+<blockquote>
+
+<details>
+<summary><b>[ A ]&nbsp; Restart the server. It always works.</b></summary>
+
+<br/>
+
+```txt
+✦ Uptime resets. Errors return in 40 seconds.
+✦ You have bought time, not answers.
+```
+
+<blockquote>
+
+<details>
+<summary><b>[ A.1 ]&nbsp; Restart it again, harder</b></summary>
+
+```txt
+💀  GAME OVER — "The Infinite Reboot"
+    Rank: F  ·  You are now part of the incident timeline.
+```
+
+</details>
+
+<details>
+<summary><b>[ A.2 ]&nbsp; Fine. Open the logs.</b></summary>
+
+```txt
+🟣  RECOVERED — you lost 6 minutes but found the thread.
+    Rank: B  ·  Continue to Cabinet 02.
+```
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><b>[ B ]&nbsp; Read the logs first.</b></summary>
+
+<br/>
+
+```txt
+✦ SqlException: Timeout expired.
+✦ The connection pool has been exhausted.
+```
+
+<blockquote>
+
+<details>
+<summary><b>[ B.1 ]&nbsp; Raise the pool size to 500 and move on</b></summary>
+
+```txt
+⚠️  PARTIAL WIN — it holds until Tuesday.
+    Rank: C  ·  Tuesday is not your friend.
+```
+
+</details>
+
+<details>
+<summary><b>[ B.2 ]&nbsp; Find the query holding the connection open</b></summary>
+
+```txt
+🏆  VICTORY — one missing index. One line of EF Core.
+    Rank: S  ·  You are the reason the graph went green.
+
+        ██   ██ ██████
+        ██  ██  ██   ██     K / B
+        █████   ██████      SHIPPED IT
+        ██  ██  ██   ██
+        ██   ██ ██████
+```
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><b>[ C ]&nbsp; Blame DNS.</b></summary>
+
+<br/>
+
+```txt
+🌀  It is not DNS.
+    There is no way it is DNS.
+    It was not DNS.
+
+    Rank: D  ·  But honestly, respect for the classic.
+```
+
+</details>
+
+</blockquote>
+
+<br/>
+
+</details>
+
+<br/>
+
+<!-- ---------- CABINET 02 : GUESS THE OUTPUT ---------- -->
+
+<details>
+<summary><b>&nbsp;🎯&nbsp; CABINET 02 &nbsp;·&nbsp; GUESS THE OUTPUT &nbsp;·&nbsp; <i>five questions, no scrolling ahead</i></b></summary>
+
+<br/>
+
+```txt
+┌─ GUESS THE OUTPUT ─────────────────────────────────────┐
+│  Think first. Then click to reveal. Honour system.     │
+└────────────────────────────────────────────────────────┘
+```
+
+**01** &nbsp;·&nbsp; JavaScript
+
+```js
+console.log(0.1 + 0.2 === 0.3);
+```
+
+<details><summary><i>reveal</i></summary>
+
+`false` — floating point gives `0.30000000000000004`.
+
+</details>
+
+<br/>
+
+**02** &nbsp;·&nbsp; C#
+
+```csharp
+string a = null;
+Console.WriteLine(a?.Length ?? -1);
+```
+
+<details><summary><i>reveal</i></summary>
+
+`-1` — the null-conditional short-circuits, so the null-coalescing operator takes over.
+
+</details>
+
+<br/>
+
+**03** &nbsp;·&nbsp; JavaScript
+
+```js
+console.log(typeof NaN);
+```
+
+<details><summary><i>reveal</i></summary>
+
+`"number"` — NaN is a numeric value that isn't a valid number.
+
+</details>
+
+<br/>
+
+**04** &nbsp;·&nbsp; Python
+
+```python
+print([] == False, bool([]) == False)
+```
+
+<details><summary><i>reveal</i></summary>
+
+`False True` — an empty list is falsy, but it isn't *equal* to `False`.
+
+</details>
+
+<br/>
+
+**05** &nbsp;·&nbsp; SQL
+
+```sql
+SELECT COUNT(*) FROM users WHERE email != NULL;
+```
+
+<details><summary><i>reveal</i></summary>
+
+`0` — comparisons with NULL are never true. You need `IS NOT NULL`.
+
+</details>
+
+<br/>
+
+```txt
+5/5  ·  you may deploy on a Friday
+3–4  ·  solid, keep the logs open
+0–2  ·  welcome, the coffee is over there
+```
+
+<br/>
+
+</details>
+
+<br/>
+
+<div align="center">
+<details>
+<summary><sub>· · ·</sub></summary>
+
+<br/>
+
+<sub>You found the hidden panel. Nothing here but a thank-you and a suggestion: star a repo, it's free.</sub>
+
+</details>
+</div>
+
+<br/>
+
+---
+
 <!-- ============ GITHUB ANALYTICS ============ -->
 
 <div align="center">
